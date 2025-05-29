@@ -41,7 +41,7 @@ const ContactForm = () => {
             emailjs
             .send(
                 "service_rp4oc2a",
-            "template_3vs9hrt",
+                "template_dekca3s",
         formData,
         "KX0eRi5SQDjiSxWlZ",
     )
