@@ -4,6 +4,9 @@ import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Bio from './components/Bio'
 import Skill from './components/Skill'
+import WorkExperience from './components/WorkExperience'
+import EducationSection from './components/EducationSection'
+import ContactForm from './components/ContactForm'
 
 const App = () => {
   return (
@@ -15,6 +18,9 @@ const App = () => {
         <Projects/>
         <Bio/>
         <Skill/>
+        <WorkExperience/>
+        <EducationSection/>
+        <ContactForm/>
       </div>
     </div>
   )
