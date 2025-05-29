@@ -1,6 +1,6 @@
 'use client'
 import { HERO } from '../constants'
-import carlImg from "../assets/carl.jpeg"
+import amirImg from "../assets/amir.png"
 import Image from 'next/image'
 
 const Hero = () => {
@@ -12,8 +12,8 @@ const Hero = () => {
         <p className="p-2 mb-8 text-xl">{HERO.description}</p>
         </div>
         <div className="w-full md:w-1/2 lg:p-8">
-        <div className="flex justify-center">
-            <Image src={carlImg} alt='carl Frank' width={550} height={550} className="rounded-3xl" />
+        <div className="flex justify-center p-10">
+            <Image src={amirImg} alt='Amir Shoeibi' width={500} height={200} className="rounded-3xl" />
         </div>
         </div>
         </section>

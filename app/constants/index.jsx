@@ -31,7 +31,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "CARL FRANK",
+  name: "AMIR SHOEIBI OMRANI",
   greet: "Hello there! 👋🏻",
   description:
     "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
