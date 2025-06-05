@@ -20,7 +20,7 @@ const itemVariants = {
   visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
 };
 
-const Skill = () => {
+const Skills = () => {
   return (
     <div className="container mx-auto " id="skills">
       <h2 className="mb-12 mt-20 text-center text-4xl font-semibold">Skills</h2>
@@ -53,4 +53,4 @@ const Skill = () => {
   );
 };
 
-export default Skill;
+export default Skills;
