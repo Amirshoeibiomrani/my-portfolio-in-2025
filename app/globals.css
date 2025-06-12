@@ -9,6 +9,7 @@ html ,body{
   margin: 0;
 }
 
+
 body{
   background: #000;
   color: #fff;
@@ -17,4 +18,8 @@ body{
 
 .bg-img{
   background-image: url("./assets/bg-img5.png");
+}
+/* global.css یا فایل استایل پروژه */
+section {
+  scroll-margin-top: 5rem; /* یا هر مقداری که ارتفاع Navbar شماست */
 }
