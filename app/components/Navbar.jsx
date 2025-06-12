@@ -37,7 +37,7 @@ const Navbar = () => {
             <div className="mx-auto hidden max-w-2xl items-center justify-center border border-stone-50/30 bg-black/20 py-2 backdrop-blur-lg lg:flex rounded-lg ">
             <div className="flex items-center justify-between gap-6">
                 <div className="ring-2 ring-white rounded-full p-2">
-                    <Link href="#">
+                    <Link href="/">
                         <Image src={logo} width={50} alt='logo' />
                     </Link>
                 </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
                     <ul className='flex items-center gap-4'>
                         {NAVIGATION_LINKS.map((item,index)=>(
                             <li key={index}>
-                                <Link href={item.href} className='text-sm hover:text-yellow-400 '  onClick={(e)=> handleLinkClick(e,item.href) }>{item.label}</Link>
+                                <a href={item.href} className='text-sm hover:text-yellow-400 '  onClick={(e)=> handleLinkClick(e,item.href) }>{item.label}</a>
                             </li>
                         ))}
                     </ul>
@@ -56,7 +56,7 @@ const Navbar = () => {
             <div className="rounded-lg backdrop-blur-md lg:hidden">
                 <div className="flex items-center justify-between" >
                     <div className="">
-                        <Link href="#">
+                        <Link href="/">
                             <Image src={logo} alt='logo' width={90} className='m-2'/>
                         </Link>
                     </div>
@@ -73,9 +73,9 @@ const Navbar = () => {
                     <ul className='ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md'>
                         {NAVIGATION_LINKS.map((item,index)=>(
                             <li key={index}>
-                                <Link href={item.href} className='block w-full text-lg' onClick={(e)=> handleLinkClick(e,item.href)}>
+                                <a href={item.href} className='block w-full text-lg' onClick={(e)=> handleLinkClick(e,item.href)}>
                                 {item.label}
-                                </Link>
+                                </a>
                             </li>
                         )) }
                     </ul>

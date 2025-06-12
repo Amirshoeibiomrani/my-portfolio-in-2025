@@ -44,7 +44,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/Amirshoeibiomrani/personal-portfolio-in-2025",
   },
   {
     id: 2,
@@ -64,11 +64,11 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "Newest Weather App",
     description:
       "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
     image: projectImage4,
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/Amirshoeibiomrani/newest_weather_app",
   },
   {
     id: 5,
