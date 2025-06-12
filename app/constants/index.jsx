@@ -19,7 +19,11 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs, FaYoutube } from "react-icons/fa";
-import { BiLogoFigma, BiLogoPostgresql } from "react-icons/bi";
+import {
+  BiLogoFigma,
+  BiLogoPostgresql,
+  BiLogoTypescript,
+} from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -34,7 +38,7 @@ export const HERO = {
   name: "AMIR SHOEIBI OMRANI",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I enjoy turning ideas into engaging web experiences and have been working in this field for the past few years.",
 };
 
 export const PROJECTS = [
@@ -44,7 +48,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/Amirshoeibiomrani/personal-portfolio-in-2025",
+    githubLink:
+      "https://github.com/Amirshoeibiomrani/personal-portfolio-in-2025",
   },
   {
     id: 2,
@@ -91,7 +96,7 @@ export const PROJECTS = [
 export const BIO = [
   "My name is Amir Shoeibi Omrani, and I’m a graduate of Computer Software Engineering from Montazeri Technical College of Mashhad. I discovered my passion for frontend development during my university years, and over time, it became my main professional focus.",
   "Although I haven’t worked at a specific company yet, I’ve been actively involved in freelance projects, collaborating with various individuals and teams. These experiences have helped me gain practical skills in building user interfaces and working with modern tools and frameworks.",
-  "I have strong knowledge of HTML, CSS, and JavaScript, and I’ve worked with frameworks like React. I always aim to write clean, professional code while delivering smooth and engaging user experiences. Continuous learning and improvement are important to me, and I’m ready to contribute to professional teams or take on high-quality independent projects."
+  "I have strong knowledge of HTML, CSS, and JavaScript, and I’ve worked with frameworks like React. I always aim to write clean, professional code while delivering smooth and engaging user experiences. Continuous learning and improvement are important to me, and I’m ready to contribute to professional teams or take on high-quality independent projects.",
 ];
 
 export const SKILLS = [
@@ -103,39 +108,41 @@ export const SKILLS = [
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
-    experience: "1+ year",
+    experience: "1+ years",
+  },
+  {
+    icon: <BiLogoTypescript className="text-4xl text-sky-700 lg:text-5xl" />,
+    name: "Typescript",
+    experience: "1+ years",
+  },
+  {
+    icon: <BiLogoFigma className="text-4xl text-sky-700 lg:text-5xl" />,
+    name: "Figma",
+    experience: "1+ years",
   },
   {
     icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
     name: "MongoDB",
-    experience: "1.5+ years",
+    experience: "1+ years",
   },
   {
     icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
     name: "Redis",
-    experience: "1+ year",
+    experience: "1+ years",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "2+ years",
+    experience: "1+ years",
   },
   {
     icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
     name: "PostgreSQL",
-    experience: "1+ year",
+    experience: "1+ years",
   },
-   {
-    icon: <BiLogoFigma className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "Figma",
-    experience: "1+ year",
-  },
- 
-
 ];
 
 export const EXPERIENCES = [
-
   {
     title: "Frontend Engineer",
     company: "Digital Creations",
@@ -153,7 +160,6 @@ export const EXPERIENCES = [
 ];
 
 export const EDUCATION = [
- 
   {
     degree: "Bachelor of Computer Software Engineering",
     institution: "Montazeri Technical College of Mashhad",
